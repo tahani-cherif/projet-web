@@ -1,0 +1,12 @@
+.contacts {
+text-align: center;
+}
+.contact-card{
+  background-color: aliceblue;
+  margin: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+img{
+  width: 100%;
+}
