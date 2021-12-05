@@ -1,0 +1,63 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar {
+  display: grid;
+  width: 15%;
+  height: 1rem;
+}
+.Main {
+  display: grid;
+  width: 80%;
+}
+.quik_icon {
+  display: flex;
+  align-items: center;
+  font-size: 1.7erm;
+  padding: 10px;
+}
+.sidebar > div {
+  height: auto;
+}
+.home {
+  border-bottom: 1px black solid;
+}
+.quik_icon > div {
+  padding: 0 12px;
+}
+.img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-left: -279px;
+  MARGIN-TOP: 10px;
+}
+.Main > div {
+  margin: 8px 2px;
+  MARGIN-RIGHT: 2%;
+}
+
+.titre{
+  margin-top: -24px;
+  margin-left: 41px;
+  font-size: 10px;
+}
+.videos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+.view{
+  margin-left: -108px;
+  margin-top: 8px;
+  margin-bottom: 11px;
+  color: gray;
+  font-size: small;
+}
+.chaine{
+  margin-left: -145px;
+  color: gray;
+  margin-top: 2px;
+  font-size: small;
+}

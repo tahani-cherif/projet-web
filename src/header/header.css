@@ -1,0 +1,75 @@
+html {
+  font-size: 62.5%;
+  box-sizing: "border-box";
+}
+body {
+  font: 1.6rem helvetica;
+  height: 15vh;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.Header > div {
+  font-size: 2rem;
+}
+.button {
+  border: none;
+  font-size: 2.5rem;
+  background: none;
+  margin: 0 12px;
+}
+.Icon > div > img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+input[type='search']{
+    height: 3.5rem;
+    width: 100%;
+    border: none  ;
+}
+input::placeholder{
+    font-size: 2rem;
+}
+.Search{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px  solid lightgrey;
+}
+.search{
+    width: 30px!important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgrey;
+    border-right:  1px solid lightgrey;
+    color: grey;
+    padding: 0 10px;
+    margin-left: -9px;
+}
+.Icon{
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+.Icon>div{
+    padding: 0 12px
+}
+.headerarea{
+  height: 6rem;
+  width: 100%;
+}
+.s{
+  margin-left: -10px;
+}

@@ -1,0 +1,108 @@
+.a{
+    margin-left: 89px;
+}
+p{    margin-top: 12px;
+  margin-left: -953px;
+  font-size: 106%;
+}
+.viewvideo{
+    margin-left: -1269px;
+    font-size: inherit;
+    color: gray;
+}
+.like{
+    display: flex;
+    margin-left: 370px;
+    margin-top: -33px;
+    justify-content: space-between;
+    margin-right: 938px;
+  }
+.nb{
+    margin-top: -25px;
+    margin-left: 65px;
+    font-size: 22px;
+ }
+ .partage{
+    margin-left: 15px;
+    height: 97%;
+ }
+ .p{
+    margin-left: 11px;
+    margin-top: 1px;
+    font-size: 19px;
+ }
+ .enrg{
+    margin-left: 17px;
+    margin-top: 11px;
+    margin-bottom: 3px;
+    height: 25px;
+ }
+ .eng{
+    margin-left: 10px;
+    font-size: 17px;
+    margin-top: 13px;
+
+ }
+ .enr{
+    display: flex;
+    margin-top: -10px;
+ }
+ .titre1{
+    margin-top: -38px;
+    margin-left: -1133px;
+    font-size: 24px;
+  }
+  .img1 {
+    height: 61px;
+    width: 65px;
+    border-radius: 64%;
+    margin-left: -1381px;
+  }
+  hr{
+    width: 63%;
+    margin-left: 2px;
+  }
+  .discp{
+    font-size: 12px;
+    margin-left: 73px;
+    text-transform: lowercase;
+    margin-right: 714px;
+  }
+  .hr2{
+    width: 109%;
+    margin-left: -139px;
+    margin-top: 30px;
+  }
+  .commt{
+    height: 52px;
+    margin-top: 5px;
+    margin-left: 134px;
+    width: 58%;
+  }
+  .comt{
+    display: flex;
+      justify-content: space-around;
+      margin-left: -79px;
+  }
+  .res{
+       margin-top: -10px;
+    margin-left: -26px;
+  }
+ .label{
+   margin-left: -229px;
+ }
+ .input{
+    width: 85%;
+    MARGIN-LEFT: 13px;
+    border-left-style : none;
+    border-right-style : none;
+    border-top-style : none;
+    background-color: #fafafa;
+ }
+ .sub{
+    margin-left: -30px;
+ }
+ .chaine1{
+   margin-left: -1123px;
+   margin-top: -47px;
+ }
