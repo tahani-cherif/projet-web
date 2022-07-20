@@ -9,15 +9,14 @@ import './videoRoute.css'
 class Videoroute extends Component{
   constructor(props) {
     super(props);
-    this.state = { counter: 0,
+    this.state = { counter:0,
                  counter2: 0,
                  on1 :false,
                  on2 :false,
-                commt:"",
-                commt2:""}
+                commt:""
+                }
    this.testlike=this.testlike.bind(this);
    this.testdislike=this.testdislike.bind(this);
-   //this.handleChange = this.handleChange.bind(this);
    
    
   }
@@ -25,8 +24,7 @@ class Videoroute extends Component{
   testlike(){
     if(this.state.on1===false)
     {this.setState({on1:true,
-        counter: this.state.counter+1,
-        counter2: 0,
+        counter: this.state.counter+1
        })
        if(this.state.on2===true)
        {{this.setState({on2:false,
@@ -44,9 +42,7 @@ class Videoroute extends Component{
   testdislike(){
     if(this.state.on2===false)
     {this.setState({on2:true,
-        counter2: this.state.counter2+1,
-        counter1: 0,
-        color:"bleu"
+        counter2: this.state.counter2+1
                  })
         if(this.state.on1===true)
         {{this.setState({on1:false,
@@ -60,12 +56,15 @@ class Videoroute extends Component{
     }
 
 }
+
   change=e=>{
-    this.setState({commt : e.target.value});
+    this.setState({commt : e.target.value})
+   
   }
-  msg()
-  {
+  msg(e)
+  { 
     alert("votre commontaire a été envoyer")
+   
   }
  render(){
    return (
@@ -101,7 +100,7 @@ class Videoroute extends Component{
        <label  className="label">Commontaire</label>
        <input className="input" type="text" onChange={this.change} value={this.state.commt}/>
        <button className="sub" type="submit" onClick={this.msg}><GrSend/></button>
-       <p>{this.state.commt}</p>
+       <p>{this.state.commt} </p>
        
 
      </div>
